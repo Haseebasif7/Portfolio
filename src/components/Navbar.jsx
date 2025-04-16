@@ -44,16 +44,16 @@ const Navbar = () => {
     const element = document.getElementById(sectionId);
     if (element) {
       setIsScrolling(true);
+      setActiveSection(sectionId); // Set active section immediately
       
       // Calculate the target position with offset for the fixed header
-      const headerOffset = 80; // Adjust this value based on your header height
+      const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
       // Smooth scroll to the section
-      await smoothScroll(offsetPosition, 1000);
+      await smoothScroll(offsetPosition, 800); // Reduced duration for smoother feel
       
-      setActiveSection(sectionId);
       setIsScrolling(false);
     }
   };
@@ -68,15 +68,7 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="container mx-auto flex justify-between items-center">
-        <motion.div
-          className="text-xl font-display font-bold"
-          whileHover={{ scale: 1.05 }}
-          transition={{ type: "spring", stiffness: 400, damping: 10 }}
-        >
-          <span className="text-gradient">HA</span>
-        </motion.div>
-        
+      <div className="container mx-auto flex justify-end items-center">
         <NavigationMenu>
           <NavigationMenuList className="gap-1">
             {['home', 'experience', 'skills', 'projects', 'contact'].map((item) => (

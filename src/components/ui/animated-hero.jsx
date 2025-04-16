@@ -66,7 +66,7 @@ function Hero() {
 
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
               Building intelligent systems that solve complex problems through innovative AI solutions. 
-              Specializing in machine learning, natural language processing, and computer vision to 
+              Specializing in machine learning, natural language processing, and LLMs to 
               create impactful technology that drives business value.
             </p>
           </div>
