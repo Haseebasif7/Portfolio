@@ -74,9 +74,9 @@ function Hero() {
             <Button 
               size="lg" 
               className="gap-4"
-              onClick={() => window.open('https://github.com/Haseebasif7', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1JQDDLJNzSfM0Jlpm909IYACaCvJwUPh1/view?usp=sharing', '_blank')}
             >
-              View my work <MoveRight className="w-4 h-4" />
+              Resume <MoveRight className="w-4 h-4" />
             </Button>
           </div>
         </div>
