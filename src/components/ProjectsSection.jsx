@@ -34,12 +34,12 @@ const projects = [
     icon: <Brain className="h-5 w-5" />
   },
   {
-    title: "BotX",
-    description: "An advanced Discord chatbot powered by Mistral AI model featuring dynamic responses, voice interaction with Google Text-to-Speech (gTTS), and FFmpeg integration. Includes 24/7 hosting on Pylexnodes and an interactive help menu system.",
+    title: "Advance-Lane-Detection",
+    description: "A lane detection model using classical computer vision techniques (OpenCV and NumPy) to identify lane boundaries, calculate lane curvature, and determine vehicle position—without relying on machine learning.",
     image: "https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=500&auto=format&fit=crop",
-    tags: ["Python", "discord.py", "gTTS", "FFmpeg", "Groq API"],
-    link: "https://github.com/Haseebasif7/BotX-Discord-",
-    github: "https://github.com/Haseebasif7/BotX-Discord-",
+    tags: ["Python", "OpenCV", "Numpy", "Matplotlib"],
+    link: "https://github.com/Haseebasif7/Advance-Lane-Detection",
+    github: "https://github.com/Haseebasif7/Advance-Lane-Detection",
     icon: <MessageSquare className="h-5 w-5" />
   }
 ];
