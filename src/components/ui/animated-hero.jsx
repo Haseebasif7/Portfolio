@@ -74,7 +74,7 @@ function Hero() {
             <Button 
               size="lg" 
               className="gap-4"
-              onClick={() => window.open('https://drive.google.com/file/d/1JQDDLJNzSfM0Jlpm909IYACaCvJwUPh1/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1GMC3Ov6Z2uxZ-anuDkTiLEw2-7dHZwVO/view?usp=drive_link', '_blank')}
             >
               Resume <MoveRight className="w-4 h-4" />
             </Button>
